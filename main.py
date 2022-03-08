@@ -4,22 +4,29 @@ from yaml.loader import SafeLoader
 import time
 import logging
 
+
 def value(d,fn):
     for i in d:
         if type(d[i]) is dict:
+
             if d[i]!= 'Activities':
                 for k,v in d[i].items():
 
                    if type(v) is dict and  v!='Inputs':
                        arr.append(k)
+                       str = ".".join(arr)
+                       logger.info(';%s Entry', str)
                        value(v,fn)
+                   #if 'Execution' in v and v['Execution'] == 'Concurrent':
+                       #conc(d, fn)
                    if 'Inputs' in v:
                        input_values=v['Inputs']
                        exc_delay=input_values['ExecutionTime']
-                       time.sleep(int(exc_delay))
+
+
                        filename=input_values['FunctionInput']
-                       str = ".".join(arr)
-                       logger.info(';%s Entry',str)
+
+                       time.sleep(int(exc_delay))
                        logger.info(';%s Executing TimeFunction (%s,%s)',str,filename,exc_delay)
                        logger.info(';%s Exit',str)
                        arr.pop()
@@ -27,7 +34,8 @@ def value(d,fn):
 
 
 logging.basicConfig(filename="output.log",
-                    format='%(asctime)s %(message)s',
+                    format='%(asctime)s.000000%(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S',
                     filemode='w')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -40,7 +48,12 @@ for i in data:
     arr.append(i)
     value(data[i],arr)
 
-logger.info(';%s Exit',arr[0])
+while len(arr)>0:
+    str = ".".join(arr)
+    logger.info(';%s Exit',str)
+    arr.pop()
+
+
 
 
 
