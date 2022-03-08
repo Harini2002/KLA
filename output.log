@@ -1,0 +1,11 @@
+2022-03-08 13:07:10,101 M1A_Workflow Entry
+2022-03-08 13:07:11,114 imp. TaskA Entry
+2022-03-08 13:07:11,114 imp. TaskA Executing DataLoad(TaskA_Input)
+2022-03-08 13:07:11,114 Exit
+2022-03-08 13:07:13,125 imp. TaskB Entry
+2022-03-08 13:07:13,125 imp. TaskB Executing DataLoad(TaskB_Input)
+2022-03-08 13:07:13,125 Exit
+2022-03-08 13:07:13,125 imp. FlowA Entry
+2022-03-08 13:07:13,125 imp. FlowA Executing DataLoad(TaskB_Input)
+2022-03-08 13:07:13,126 Exit
+2022-03-08 13:07:13,126 M1A_Workflow Exit
