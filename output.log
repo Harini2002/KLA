@@ -1,14 +1,14 @@
-2022-03-08 13:38:01,389 M1A_Workflow Entry
-2022-03-08 13:38:02,404 M1A_Workflow. TaskA Entry
-2022-03-08 13:38:02,404 M1A_Workflow. TaskA Executing DataLoad (TaskA_Input)
-2022-03-08 13:38:02,404 Exit
-2022-03-08 13:38:04,404 M1A_Workflow. TaskB Entry
-2022-03-08 13:38:04,404 M1A_Workflow. TaskB Executing DataLoad (TaskB_Input)
-2022-03-08 13:38:04,404 Exit
-2022-03-08 13:38:07,415 M1A_Workflow. TaskC Entry
-2022-03-08 13:38:07,415 M1A_Workflow. TaskC Executing DataLoad (TaskC_Input)
-2022-03-08 13:38:07,415 Exit
-2022-03-08 13:38:11,427 M1A_Workflow. TaskD Entry
-2022-03-08 13:38:11,427 M1A_Workflow. TaskD Executing DataLoad (TaskD_Input)
-2022-03-08 13:38:11,427 Exit
-2022-03-08 13:38:11,427 M1A_Workflow Exit
+2022-03-08 14:02:11,170 M1A_Workflow Entry
+2022-03-08 14:02:12,185 M1A_Workflow.TaskA Entry
+2022-03-08 14:02:12,185 M1A_Workflow.TaskA Executing DataLoad (TaskA_Input)
+2022-03-08 14:02:12,185 M1A_Workflow.TaskA Exit
+2022-03-08 14:02:14,198 M1A_Workflow.TaskB Entry
+2022-03-08 14:02:14,198 M1A_Workflow.TaskB Executing DataLoad (TaskB_Input)
+2022-03-08 14:02:14,198 M1A_Workflow.TaskB Exit
+2022-03-08 14:02:17,207 M1A_Workflow.FlowA.TaskC Entry
+2022-03-08 14:02:17,207 M1A_Workflow.FlowA.TaskC Executing DataLoad (TaskC_Input)
+2022-03-08 14:02:17,207 M1A_Workflow.FlowA.TaskC Exit
+2022-03-08 14:02:21,210 M1A_Workflow.FlowA.TaskD Entry
+2022-03-08 14:02:21,210 M1A_Workflow.FlowA.TaskD Executing DataLoad (TaskD_Input)
+2022-03-08 14:02:21,210 M1A_Workflow.FlowA.TaskD Exit
+2022-03-08 14:02:21,210 M1A_Workflow Exit
