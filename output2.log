@@ -1,0 +1,32 @@
+2022-03-08 13:45:22,882 M1B_Workflow Entry
+2022-03-08 13:45:23,898 M1B_Workflow. TaskA Entry
+2022-03-08 13:45:23,898 M1B_Workflow. TaskA Executing DataLoad (TaskA_Input)
+2022-03-08 13:45:23,898 Exit
+2022-03-08 13:45:37,910 M1B_Workflow. TaskB Entry
+2022-03-08 13:45:37,910 M1B_Workflow. TaskB Executing DataLoad (TaskB_Input)
+2022-03-08 13:45:37,910 Exit
+2022-03-08 13:45:42,918 M1B_Workflow. TaskC Entry
+2022-03-08 13:45:42,918 M1B_Workflow. TaskC Executing DataLoad (TaskC_Input)
+2022-03-08 13:45:42,918 Exit
+2022-03-08 13:45:47,929 M1B_Workflow. TaskD Entry
+2022-03-08 13:45:47,929 M1B_Workflow. TaskD Executing DataLoad (TaskD_Input)
+2022-03-08 13:45:47,929 Exit
+2022-03-08 13:45:52,934 M1B_Workflow. TaskE Entry
+2022-03-08 13:45:52,934 M1B_Workflow. TaskE Executing DataLoad (TaskE_Input)
+2022-03-08 13:45:52,934 Exit
+2022-03-08 13:45:53,938 M1B_Workflow. TaskF Entry
+2022-03-08 13:45:53,938 M1B_Workflow. TaskF Executing DataLoad (TaskF_Input)
+2022-03-08 13:45:53,938 Exit
+2022-03-08 13:45:55,941 M1B_Workflow. TaskG Entry
+2022-03-08 13:45:55,941 M1B_Workflow. TaskG Executing DataLoad (TaskG_Input)
+2022-03-08 13:45:55,941 Exit
+2022-03-08 13:45:57,959 M1B_Workflow. TaskH Entry
+2022-03-08 13:45:57,959 M1B_Workflow. TaskH Executing DataLoad (TaskH_Input)
+2022-03-08 13:45:57,959 Exit
+2022-03-08 13:46:02,978 M1B_Workflow. TaskI Entry
+2022-03-08 13:46:02,978 M1B_Workflow. TaskI Executing DataLoad (TaskI_Input)
+2022-03-08 13:46:02,978 Exit
+2022-03-08 13:46:07,990 M1B_Workflow. TaskZ Entry
+2022-03-08 13:46:07,990 M1B_Workflow. TaskZ Executing DataLoad (TaskZ_Input)
+2022-03-08 13:46:07,990 Exit
+2022-03-08 13:46:07,990 M1B_Workflow Exit
